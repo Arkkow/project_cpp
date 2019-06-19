@@ -54,7 +54,7 @@ string Emeryt::getMiesiac()
 
 string Emeryt::getRok()
 {
-    string rok="1234";  //musi byc jakas wartosc poczatkowa stringa bo inaczej moj super kod nie dziala xD
+    string rok="1234";  
     string pesel=getPESEL();
     string miesiac=pesel.substr(2,2);
 
